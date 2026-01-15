@@ -1,22 +1,17 @@
-
+// Browser Launch function
 function launchBrowser(browserName){
     if (browserName === "chrome"){
-
         console.log("Browser is " +browserName);
-        
     }
-
     else{
         console.log( "Browser is unsupported " +browserName);
-        
     }
 }
 launchBrowser("firefox")
 
+//Testtype Handler using switch command
 function runTests (testName){
-
     switch (testName) {
-
         case "sanity" :
         console.log("Its a test " +testName)
         break;
